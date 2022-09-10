@@ -102,6 +102,50 @@ console.log(category);
 
 //CODE HERE
 
+foodArr = [
+    {
+        name: "Tripple Sausage",
+        price: 13.99,
+        category:"Entree",
+        popularity: 3,
+        rating: 5,
+        tags: ["meat lovers", "sale"],},
+
+    {
+        name: "Cheese",
+        price: 10.99,
+        category:"Entree",
+        popularity: 2,
+        rating: 5,
+        tags: ["kids", "great value"],},
+
+        {
+            name: "BBQ Chicken",
+            price: 14.99,
+            category:"Entree",
+            popularity: 5,
+            rating: 5,
+            tags: ["speciality", "popular"]},
+
+     {
+        name: "Three Meat",
+        price: 14.99,
+        category:"Entree",
+        popularity: 2,
+        rating: 4.5,
+        tags: ["speciality", "meat lovers"],},
+
+        {
+            name: "Veggie",
+            price: 12.99,
+            category:"Entree",
+            popularity: 2,
+            rating: 3.5,
+            tags: ["vegitarian", "speciality"],}
+
+];
+
+console.log(foodArr);
 
 
 //////////////////PROBLEM 4////////////////////
