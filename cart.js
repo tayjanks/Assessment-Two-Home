@@ -58,8 +58,7 @@ console.log(summedPrice);
 
 function calcFinalPrice (cartTotal, couponValue, tax){return cartTotal + tax - couponValue};
 
-ticket = calcFinalPrice(100,20,7);
-console.log(ticket);
+
 
 
 //////////////////PROBLEM 3////////////////////
@@ -84,6 +83,11 @@ console.log(ticket);
 
 /*
     TEXT ANSWER HERE
+properties = party name, party size, arrival time, waiter
+party name to distinguish the party from others
+party size incase you need to split the check
+arrival time for record keeping and to ensure guest are being handled timely
+waiter for record keeping and so they get any tips
 
 */
 
@@ -93,3 +97,11 @@ console.log(ticket);
 */
 
 //CODE HERE
+
+const customer = {
+    name: "Terry",
+    size: 4,
+    arrivalTime: "7:02 PM",
+    waiter: "Joel J",
+};
+console.log(customer);
