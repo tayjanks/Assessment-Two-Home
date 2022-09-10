@@ -56,6 +56,10 @@ console.log(summedPrice);
 
 //CODE HERE
 
+function calcFinalPrice (cartTotal, couponValue, tax){return cartTotal + tax - couponValue};
+
+ticket = calcFinalPrice(100,20,7);
+console.log(ticket);
 
 
 //////////////////PROBLEM 3////////////////////
