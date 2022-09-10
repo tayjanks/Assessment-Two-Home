@@ -162,7 +162,8 @@ console.log(foodArr);
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter(funciton (elem){return elem.tags ==== "speciality"});
+
 
 
 
