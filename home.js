@@ -124,6 +124,19 @@ const deals = [
 
 
 
+const changePrice = (deal) => {
+    let titleOne= String(deal[0].title);
+    return titleOne.replace(15,10);}
+    
+
+
+console.log(changePrice(deals));
+
+
+
+
+
+
 /*
     The restaurant is going to continue its
     family deal for another month. 
@@ -138,3 +151,4 @@ const deals = [
 */
 
 //CODE HERE
+
