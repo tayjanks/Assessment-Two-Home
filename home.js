@@ -125,12 +125,15 @@ const deals = [
 
 
 const changePrice = (deal) => {
-    let titleOne= String(deal[0].title);
-    return titleOne.replace(15,10);}
+    let title= String(deal[0].title);
+    return title.replace("15","10");
+
+};
     
 
-
 console.log(changePrice(deals));
+
+
 
 
 
@@ -152,3 +155,11 @@ console.log(changePrice(deals));
 
 //CODE HERE
 
+const changeMonth = (deal) => {
+    let month= String(deal[1].desc);
+    return month.replace("March","April");
+
+};
+    
+
+console.log(changeMonth(deals));
