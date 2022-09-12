@@ -1,0 +1,13 @@
+Company Stack Research
+
+Company 1: AirBNB
+Stack: C/C++, Java, C#, Python/Django, Ruby/Ruby on Rails,Python, Java, Scala
+Why? No reason given in job description 
+
+Company 2: Shopify
+Stack: rails, SQL, memcached, Redis, HTML, JavaScript, React, TypeScript, monolith, BuildKite
+Why? They wrote a whole article on it! https://shopify.engineering/e-commerce-at-scale-inside-shopifys-tech-stack 
+
+Company 3: Stitch Fix
+Stack: Python, SQL, Spark, S3, GarphQL, PRC
+Why?No reason given in job descriptions
