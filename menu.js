@@ -125,7 +125,7 @@ foodArr = [
             category:"Entree",
             popularity: 5,
             rating: 5,
-            tags: ["speciality", "popular"]},
+            tags: ["speciality", "popular", "kids"]},
 
      {
         name: "Three Meat",
@@ -164,7 +164,7 @@ console.log(foodArr);
 
 //const filterFood = (tag) => {foodArr.filter(foodArr => foodArr.tags === tag)};
 
-const kidsFood  = foodArr.filter(foodArr => { return foodArr.tags.includes("kids");});
+const kidsFood =  foodArr.filter(foodArr => { return foodArr.tags.includes("kids");});
 console.log(kidsFood);
 
 
@@ -209,6 +209,11 @@ console.log(kidsFood);
 */
 
 //CODE HERE
+
+const filterByProperty= (property, number, type) => {if (type ==== "above"){return foodArr.filter(foodArr => foodArr.property > number) }}
+
+
+
 
 
 /*
