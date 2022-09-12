@@ -162,8 +162,10 @@ console.log(foodArr);
 
 //CODE HERE
 
-const filteredFood = foodArr.filter(funciton (elem){return elem.tags ==== "speciality"});
+//const filterFood = (tag) => {foodArr.filter(foodArr => foodArr.tags === tag)};
 
+const kidsFood  = foodArr.filter(foodArr => { return foodArr.tags.includes("kids");});
+console.log(kidsFood);
 
 
 
